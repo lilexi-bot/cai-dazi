@@ -1,0 +1,6 @@
+1:"$Sreact.fragment"
+2:I[96118,["/_next/static/chunks/7d0f319660058005.js"],"ViewportBoundary"]
+3:I[96118,["/_next/static/chunks/7d0f319660058005.js"],"MetadataBoundary"]
+4:"$Sreact.suspense"
+5:I[31228,["/_next/static/chunks/7d0f319660058005.js"],"IconMark"]
+0:{"buildId":"TUew0FXQIVRD_d3QaABcm","rsc":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L2",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L3",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"财搭子 - 面向年轻人的AI理财陪伴应用"}],["$","meta","1",{"name":"description","content":"一个懂金融、懂年轻人、更懂闭嘴的AI理财陪伴伙伴。不替代判断，只陪伴成长。"}],["$","meta","2",{"name":"keywords","content":"AI理财,理财陪伴,年轻人理财,财搭子,智能理财"}],["$","link","3",{"rel":"icon","href":"/favicon.ico?favicon.0b3bf435.ico","sizes":"256x256","type":"image/x-icon"}],["$","$L5","4",{}]]}]}]}],null]}],"loading":null,"isPartial":false}
