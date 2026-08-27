@@ -1,0 +1,65 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+@import 'https://fonts.googleapis.cn/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap';
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: #FAFAF7;
+  --color-foreground: #1A1A2E;
+  --color-primary: #5B8C72;
+  --color-primary-foreground: #FFFFFF;
+  --color-secondary: #F4A261;
+  --color-secondary-foreground: #1A1A2E;
+  --color-accent: #E8F5E9;
+  --color-accent-foreground: #1A1A2E;
+  --color-muted: #F5F5F0;
+  --color-muted-foreground: #6B7280;
+  --color-card: #FFFFFF;
+  --color-card-foreground: #1A1A2E;
+  --color-border: #E8E8E3;
+  --color-ring: #5B8C72;
+  --color-destructive: #EF4444;
+  --color-warm-bg: #FFF8F0;
+  --color-sage: #5B8C72;
+  --color-sage-light: #E8F5E9;
+  --color-apricot: #F4A261;
+  --color-apricot-light: #FFF3E0;
+  --color-cream: #FAFAF7;
+  --color-ink: #1A1A2E;
+  --color-gray-text: #6B7280;
+  --color-border-warm: #E8E8E3;
+  --radius: 0.75rem;
+  --font-sans: 'Noto Sans SC', 'Inter', ui-sans-serif, system-ui, -apple-system, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+@layer base {
+  * {
+    @apply border-border-warm outline-ring/50;
+  }
+  body {
+    @apply bg-cream text-ink font-sans;
+  }
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out forwards;
+}
+
+.animation-delay-100 { animation-delay: 0.1s; }
+.animation-delay-200 { animation-delay: 0.2s; }
+.animation-delay-300 { animation-delay: 0.3s; }
+.animation-delay-400 { animation-delay: 0.4s; }
+.animation-delay-500 { animation-delay: 0.5s; }
